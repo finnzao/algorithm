@@ -1,7 +1,7 @@
 // The function should return the number of ways that the 'target can be
 // constructed by concatenating elements of the 'wordBank' array
 // ( how many times true was returned)
-
+// https://prnt.sc/T-UBUP9Zj_Ci
 
 const countConstruct = (target, wordBank, memo = []) => {
     if (target in memo) return memo[target]
